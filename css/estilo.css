@@ -1,0 +1,148 @@
+
+/*flexbox para formulario*/
+
+body{
+    background-color: #d8cfe6;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+    margin: 0;
+}
+h1{
+    font-size: 2em;
+    margin: 10px 0;
+    color: #fff;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 100%;
+    max-width: 500px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+
+label{
+    display: block;
+    margin-bottom: 8px;
+}
+
+.caja {
+    align: center;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+input[type="submit"]{
+    background-color: #000000;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+input[type="submit"]:hover{
+    background-color: #000000;
+}
+
+/* estilo para mostrar tabla de tareas */
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+tr:nth-child(odd) {
+   background-color:#fff;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+/* estilo para navbar */
+
+nav{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+/* inputs */
+
+input[type="text"]{
+    width: 85%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+input[type="date"], input[type="time"]{
+    width: 75%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.editar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
